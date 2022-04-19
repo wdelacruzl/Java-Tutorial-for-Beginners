@@ -1,18 +1,15 @@
-import java.util.Arrays;
-import java.util.Date;
 
 public class main {
     public static void main(String[] args) {
-        int[] numbers = new int[5]; // first way to set up arrays
-        numbers[0] = 1;
-        numbers[1] = 2;
-        System.out.println(Arrays.toString(numbers));
-
-        int[] numbers2 = {2, 4, 5, 8, 6}; // second way to set up arrays
-        System.out.println(numbers2.length);
-
-        System.out.println(Arrays.toString(numbers2));
-        // CONSTANTS: Add "final" at the beginning so that the value of a variable stays the same.
+        // Arithmetic Expressions
+        int add = 10 + 10;
+        int subtract = 10 - 10;
+        int multi = 10 * 10;
+        double divide= (double) 10 / (double) 10;
+        System.out.println(divide); // run this and results will be 1.0
+        //augmented assignment operator
+        int x = 1;
+        x += 2; // this is the same as x = x+2
     }
     }
 
