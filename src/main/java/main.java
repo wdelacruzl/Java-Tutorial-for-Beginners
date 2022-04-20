@@ -21,6 +21,13 @@ public class main {
         //String name = scanner.nextLine().trim();
        // System.out.println("You are "  +  name);
 
+        //Comparison Operators
+         int x = 1;
+         int y = 1;
+        System.out.println(x==y); //this expression runs true.
+        // other expressions are != (not equal) if we run that expression it will say false ,
+        // <= (less than or equal to),
+        // >= greater than or equal to
 
     }
     }
