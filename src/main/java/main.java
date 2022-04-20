@@ -1,4 +1,5 @@
 import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
@@ -10,9 +11,15 @@ public class main {
        // String result = currency.format(1234567.891); // $1,234,567.89
         // System.out.println(result);
 
-        NumberFormat percent = NumberFormat.getPercentInstance();
-        String result = percent.format(0.1); // 10%
-        System.out.println(result);
+        //NumberFormat percent = NumberFormat.getPercentInstance();
+        //String result = percent.format(0.1); // 10%
+        //System.out.println(result);
+
+        // Reading input: (we use the Scanner class for this)
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name: ");
+        String name = scanner.nextLine().trim();
+        System.out.println("You are "  +  name);
 
 
     }
