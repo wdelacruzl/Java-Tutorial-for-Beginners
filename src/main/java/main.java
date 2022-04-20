@@ -16,10 +16,10 @@ public class main {
         //System.out.println(result);
 
         // Reading input: (we use the Scanner class for this)
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Name: ");
-        String name = scanner.nextLine().trim();
-        System.out.println("You are "  +  name);
+       // Scanner scanner = new Scanner(System.in);
+        //System.out.print("Name: ");
+        //String name = scanner.nextLine().trim();
+       // System.out.println("You are "  +  name);
 
 
     }
