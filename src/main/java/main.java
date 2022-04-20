@@ -64,6 +64,19 @@ public class main {
        //  int income = 90_000;
        //  String className = income > 100_000 ? "First" : "Economy";
        // System.out.println(className);
+
+        // Switch Statements
+        String role = "admin";
+        switch (role){
+            case "admin":
+                System.out.println("You are an Admin");
+                break;
+            case "moderator":
+                System.out.println("You are a Moderator");
+                break;
+            default:
+                System.out.println("You are a guest");
+        }
     }
     }
 
