@@ -31,15 +31,39 @@ public class main {
         // >= greater than or equal to
 
         //Logical Operators
-        int temperature = 25;
-        boolean isWarm = temperature >20 && temperature< 30; // && represent and
+       // int temperature = 25;
+        ///boolean isWarm = temperature >20 && temperature< 30; // && represent and
         //System.out.println(isWarm); // if temperature is less than 20 or more than 30 it will run false
 
-        boolean hasHighIncome = true;
-        boolean hasGoodCredit = true;
-        boolean hasCriminalRecord = false;                       // that ! is like a no
-        boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord; // || represents or
+        //boolean hasHighIncome = true;
+        //boolean hasGoodCredit = true;
+        //boolean hasCriminalRecord = false;                       // that ! is like a no
+        //boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord; // || represents or
 
+        //If Statements
+       //  int temperature = 12;
+      //   if (temperature > 30) { // we need to code block this so that it doesn't mix with the other if statement
+         //    System.out.println("It's a hot day"); // {} are only required if we have multiple statements
+        //   System.out.println("Drink water!");
+       //  }
+        // else if (temperature > 20)
+         //   System.out.println("Beautiful day!");
+        // else
+        //     System.out.println("Cold day!");
+
+        // Simplifying If Statements
+      //   int income = 120_000;
+      //   if hasHighIncome = income > 100_000;
+
+      //  int income = 120_000;
+      //  String className = "Economy";
+      //  if (income > 100_000) // if income is more than 100,000 then they are first class/
+        //        className = "First";
+       // System.out.println(className);
+        // or
+       //  int income = 90_000;
+       //  String className = income > 100_000 ? "First" : "Economy";
+       // System.out.println(className);
     }
     }
 
