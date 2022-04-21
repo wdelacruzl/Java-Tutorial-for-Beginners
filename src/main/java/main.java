@@ -3,7 +3,7 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class main {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         // Math Class
       //   int result = (int) (Math.random() * 100); // this will generate a random number we have to use explicit casting
         // System.out.println(result);
@@ -30,7 +30,7 @@ public class main {
         // <= (less than or equal to),
         // >= greater than or equal to
 
-        //Logical Operators
+        //Logical Operator
        // int temperature = 25;
         ///boolean isWarm = temperature >20 && temperature< 30; // && represent and
         //System.out.println(isWarm); // if temperature is less than 20 or more than 30 it will run false
@@ -66,17 +66,30 @@ public class main {
        // System.out.println(className);
 
         // Switch Statements
-        String role = "admin";
-        switch (role){
-            case "admin":
-                System.out.println("You are an Admin");
-                break;
-            case "moderator":
-                System.out.println("You are a Moderator");
-                break;
-            default:
-                System.out.println("You are a guest");
+        //String role = "admin";
+       // switch (role){
+        //    case "admin":
+        //        System.out.println("You are an Admin");
+          //      break;
+            //case "moderator":
+              //  System.out.println("You are a Moderator");
+                //break;
+            //default:
+              //  System.out.println("You are a guest");
+
+        // For Loops
+         for (int i = 0; i < 5; i++) // this will make your message repeat 5 times
+             System.out.println("Hello World"); // If you know how many times to repeat, this is better
+         //OR
+         int i = 0; // If you don't know how many times to repeat, this is better
+         while (i <0) {
+             System.out.println("Hello World");
+             i++;
+
+
+
+         }
         }
     }
-    }
+
 
